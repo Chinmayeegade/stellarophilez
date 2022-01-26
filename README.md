@@ -1,3 +1,2 @@
 # stellarophilez
-
-stellarophilez.herokuapp.com
+https://stellarophilez.herokuapp.com/
