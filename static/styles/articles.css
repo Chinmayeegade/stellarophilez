@@ -1,0 +1,32 @@
+  
+  .experience-item {
+    width: 25%;
+    margin-right: 5%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    text-align: justify;
+    color: white;
+    background-color: black;
+  }
+  
+  #element1 {
+    border-left: 20px solid;
+    border-image: linear-gradient(rgb(231, 247, 7), rgb(2, 211, 248));
+    border-image-slice: 50;
+  }
+
+  #element2 {
+    border-left: 20px solid;
+    border-image: linear-gradient(rgb(223, 4, 139), rgb(21, 6, 240));
+    border-image-slice: 50;
+  }
+
+  #element3 {
+    border-left: 20px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 50;
+  }
+  

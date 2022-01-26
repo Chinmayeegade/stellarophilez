@@ -1,0 +1,1 @@
+web: gunicorn stellarophilez.wsgi --log-file -
