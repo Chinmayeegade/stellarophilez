@@ -1,17 +1,19 @@
-  
+
   .experience-item {
-    width: 25%;
-    margin-right: 5%;
+    width: 75%;
     margin-top: 5px;
     margin-bottom: 15px;
     padding-top: 5px;
+    padding-left: 5%;
+    padding-bottom:5%;
+    padding-right: 5%;
     border-radius: 10px;
     box-shadow: 10px 10px 10px gray;
     text-align: justify;
     color: white;
     background-color: black;
   }
-  
+
   #element1 {
     border-left: 20px solid;
     border-image: linear-gradient(rgb(231, 247, 7), rgb(2, 211, 248));
