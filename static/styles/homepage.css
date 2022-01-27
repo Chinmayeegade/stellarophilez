@@ -1,12 +1,13 @@
   
   .experience-item {
-    width: 75%;
+    margin-right: 5%;
     margin-top: 5px;
+    margin-left: 30px;
     margin-bottom: 15px;
     padding-top: 5px;
-    padding-left: 5%;
-    padding-bottom:5%;
-    padding-right: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px gray;
     text-align: justify;
