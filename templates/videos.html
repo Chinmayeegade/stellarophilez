@@ -1,96 +1,110 @@
-{% include 'navbar.html' %}
 {% load static %}
-<hr>
-<center>
-    <h3>
-        GRAVITATIONAL WAVES
-    </h3>  
-    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.
-        <source src="{% static 'videos/vid  (2).mp4' %}" />
-    </video>
-</center>
-<hr>
-<center>
-    <h3>
-        NEBULAE
-    </h3>  
-    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.
-        <source src="{% static 'videos/vid  (9).mp4' %}" />
-    </video>
-</center>
-<hr>
-<center>
-    <h3>
-        FLARE STARS
-    </h3>  
-    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.
-        <source src="{% static 'videos/vid  (7).mp4' %}" />
-    </video>
-</center>
-<hr>
-<center>
-    <h3>
-        BARYCENTER
-    </h3>  
-    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.
-        <source src="{% static 'videos/vid  (5).mp4' %}" />
-    </video>
-</center>
-<hr>
-<center>
-    <h3>
-        ASTEROIDS
-    </h3>  
-    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.
-        <source src="{% static 'videos/vid  (4).mp4' %}" />
-    </video>
-</center>
-<hr>
-<center>
-    <h3>
-        THE SUMMER TRIANGLE
-    </h3>  
-    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.
-        <source src="{% static 'videos/vid  (1).mp4' %}" />
-    </video>
-</center>
-<hr>
-<center>
-    <h3>
-        SCHWARZSCHILD RADIUS
-    </h3>  
-    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.
-        <source src="{% static 'videos/vid  (3).mp4' %}" />
-    </video>
-</center>
-<hr>
-<center>
-    <h3>
-        OLYMPUS MONS
-    </h3>  
-    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.
-        <source src="{% static 'videos/vid  (10).mp4' %}" />
-    </video>
-</center>
-<hr>
-<center>
-    <h3>
-        KEPLER'S LAWS OF PLANETARY MOTION
-    </h3>  
-    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.
-        <source src="{% static 'videos/vid  (8).mp4' %}" />
-    </video>
-</center>
-<hr>
-<center>
-    <h3>
-        OLBER'S PARADOX
-    </h3>  
-    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.
-        <source src="{% static 'videos/vid  (6).mp4' %}" />
-    </video>
-</center>
-<hr>
+<link rel="stylesheet" href="{% static 'styles/homepage.css' %}">
+<!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="/">
+            <h1><span>STELLAR</span>OPHILEZ<span></span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="/" data-after="Home">Home</a></li>
+            <li><a href="/introduction" data-after="Contact">Introduction</a></li>
+            <li><a href="/articles" data-after="Service">Articles</a></li>
+            <li><a href="/astropy" data-after="Projects">Astropy</a></li>
+            <li><a href="/videos" data-after="About">Videos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">VID<span>EOS</span></h1>
+      </div>
+    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.<source src="{% static 'videos/vid  (2).mp4' %}" /></video>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.<source src="{% static 'videos/vid  (3).mp4' %}" /></video>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.<source src="{% static 'videos/vid  (4).mp4' %}" /></video>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.<source src="{% static 'videos/vid  (5).mp4' %}" /></video>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.<source src="{% static 'videos/vid  (6).mp4' %}" /></video>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.<source src="{% static 'videos/vid  (7).mp4' %}" /></video>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.<source src="{% static 'videos/vid  (8).mp4' %}" /></video>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.<source src="{% static 'videos/vid  (9).mp4' %}" /></video>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.<source src="{% static 'videos/vid  (10).mp4' %}" /></video>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+    <video class="tab" width="1000" height="500" controls>Your browser does not support the &lt;video&gt; tag.<source src="{% static 'videos/vid  (1).mp4' %}" /></video>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Chinmayee</span> Gade <span></span></h1>
+      </div>
+    </div>
+  </section>
+</body>
 
 

@@ -1,28 +1,43 @@
-{% include 'navbar.html' %}
 {% load static %}
-<link rel="stylesheet" href="{% static 'styles/article.css' %}">
-<hr>
+<link rel="stylesheet" href="{% static 'styles/homepage.css' %}">
+<!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="/">
+            <h1><span>STELLAR</span>OPHILEZ<span></span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="/" data-after="Home">Home</a></li>
+            <li><a href="/introduction" data-after="Contact">Introduction</a></li>
+            <li><a href="/articles" data-after="Service">Articles</a></li>
+            <li><a href="/astropy" data-after="Projects">Astropy</a></li>
+            <li><a href="/videos" data-after="About">Videos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
 
-<center>
-    <h1>
-        <font face="Times New Roman" >
-            ASTEROIDS
-        </font>
-    </h1>
-    <h3>
-        The Prevailing Fragments of The Solar System’s Genesis 
-    </h3>
-</center>
-<center>
-    <section class="experience-area">
-
-        <div class="flexible-container">
-
-            <div id="standard2" class="experience-item">
+    <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="{% static 'images/Asteroids.png' %}">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">ASTER<span>OIDS</span></h1>
+ <p>“Time travelling to 4.6 billion years in the past”; The largest planet in our solar system, Jupiter, is about to take form. Its creation causes an orbital resonance so strong that a large gap manifests between Jupiter and Mars, and causes multiple, distinct celestial bodies floating around to fragment and form an elliptical ‘belt’ of infinite, planet-like, heavenly bodies, of varied shapes and sizes, together revolving around our star, the Sun.</p>
                 <p>
-                    “Time travelling to 4.6 billion years in the past”; The largest planet in our solar system, Jupiter, is about to take form. Its creation causes an orbital resonance so strong that a large gap manifests between Jupiter and Mars, and causes multiple, distinct celestial bodies floating around to fragment and form an elliptical ‘belt’ of infinite, planet-like, heavenly bodies, of varied shapes and sizes, together revolving around our star, the Sun.
-                </p>
-                <p>    
                     “Fast Forward to the present”; These ‘heavenly bodies’, now defined as ‘Asteroids’, are a significant topic of research for astronomers and astrophysicists worldwide.                </p>
                 <p>
                     Asteroids, also known as planetoids, are rocky, cratered surfaces, capable of colliding with the Earth and causing damage based on their size and composition. Their size ranges from approximately 2m to 940km. Though a majority of asteroids lie within the asteroid belt, between the inner and outer planets of our solar system, there are many, small clusters of asteroids all around our solar system. ‘The Near-Earth Asteroids (NEA)’ are a group of asteroids that navigate the Earth’s orbit and pose greater threat to the Earth.                </p>
@@ -32,41 +47,49 @@
                 <p>
                     Asteroid Facts:
                     <p>
-                        •Ceres, is an asteroid so large, that 
-                        it has been classified as a dwarf 
-                        planet. 
+                        •Ceres, is an asteroid so large, that
+                        it has been classified as a dwarf
+                        planet.
                     </p>
                     <p>
-                        •The 30th of June is globally 
-                        observed as ‘Asteroid Day’, 
-                        to educate and create 
+                        •The 30th of June is globally
+                        observed as ‘Asteroid Day’,
+                        to educate and create
                         awareness amongst people
-                        about asteroids and the 
-                        plausible threats they pose 
+                        about asteroids and the
+                        plausible threats they pose
                         to the Earth.
                     </p>
                     <p>
-                        •Some asteroids exist in 
-                        binary(double) or triple 
-                        asteroid systems. That is, 2 
-                        or 3 asteroids, respectively, 
-                        orbit a common center.                        
+                        •Some asteroids exist in
+                        binary(double) or triple
+                        asteroid systems. That is, 2
+                        or 3 asteroids, respectively,
+                        orbit a common center.
                     </p>
                     <p>
-                        •Many asteroids, similar to 
+                        •Many asteroids, similar to
                         planets, have ‘moons’
-                        (natural satellites) revolving 
-                        around them.                  
+                        (natural satellites) revolving
+                        around them.
                     </p>
                     <p>
-                        •Asteroids have been given 
-                        distinct symbols, along with 
-                        names.                       
+                        •Asteroids have been given
+                        distinct symbols, along with
+                        names.
                     </p>
                 </p>
-            </div>
-        </div>
-    </section>
-</center>
-<hr>
-<hr>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Chinmayee</span> Gade <span></span></h1>
+      </div>
+    </div>
+  </section>
+</body>

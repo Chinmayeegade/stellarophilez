@@ -1,312 +1,210 @@
-{% include 'navbar.html' %}
 {% load static %}
-<link rel="stylesheet" href="{% static 'styles/astropy.css' %}">
-<hr>
-
-<section class="experience-area">
-
-    <div class="flexible-container">
-
-        <div  class="experience-item" style="float:center;">
-            <center>
-
-                <p>
-                    <a href="/asteroids">
-                        <font size="50px" color="white">
-                            <center>
-                            ASTEROIDS
-                            </center>
-                        </font>
-                    <img src="{% static 'images/Asteroids.png' %}" width="200" height="200">
-                    </a>
-                </p>
-            </center>
+<link rel="stylesheet" href="{% static 'styles/homepage.css' %}">
+<!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="/">
+            <h1><span>STELLAR</span>OPHILEZ<span></span></h1>
+          </a>
         </div>
-    </div>
-</section>
-
-<section class="experience-area">
-
-    <div class="flexible-container">
-
-        <div  class="experience-item" style="float:center;">
-            <center>
-
-                <p>
-                    <a href="/stars">
-                        <font size="50px" color="white">
-                            <center>
-                            STARS
-                            </center>
-                        </font>
-                    <img src="{% static 'images/stars.png' %}" width="200" height="200">
-                    </a>
-                </p>
-            </center>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="/" data-after="Home">Home</a></li>
+            <li><a href="/introduction" data-after="Contact">Introduction</a></li>
+            <li><a href="/articles" data-after="Service">Articles</a></li>
+            <li><a href="/astropy" data-after="Projects">Astropy</a></li>
+            <li><a href="/videos" data-after="About">Videos</a></li>
+          </ul>
         </div>
+      </div>
     </div>
-</section>
+  </section>
 
-<section class="experience-area">
-
-    <div class="flexible-container">
-
-        <div  class="experience-item" style="float:center;">
-            <center>
-
-                <p>
-                    <a href="/pulsars">
-                        <font size="50px" color="white">
-                            <center>
-                            PULSARS & MAGNETARS
-                            </center>
-                        </font>
-                    <img src="{% static 'images/pulsars.png' %}" width="200" height="200">
-                    </a>
-                </p>
-            </center>
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Arti<span>CLES</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="{% static 'images/Asteroids.png' %}" /></div>
+          <div class="contact-info">
+            <a href="/asteroids">
+            <h1>ASTEROIDS</h1>
+            <h2>"The Prevailing Fragments of the Solar System's Genesis"</h2>
+            </a>
+          </div>
         </div>
-    </div>
-</section>
-
-<section class="experience-area">
-
-    <div class="flexible-container">
-
-        <div  class="experience-item" style="float:center;">
-            <center>
-
-                <p>
-                    <a href="/dwarf">
-                        <font size="50px" color="white">
-                            <center>
-                            DWARF PLANETS
-                            </center>
-                        </font>
-                    <img src="{% static 'images/dwarf.png' %}" width="200" height="200">
-                    </a>
-                </p>
-            </center>
+        <div class="contact-item">
+          <div class="icon"><img src="{% static 'images/stars.png' %}" /></div>
+          <div class="contact-info">
+            <a href="/stars">
+            <h1>STARS</h1>
+            <h2>"The Elixirs of Life"</h2>
+            </a>
+          </div>
         </div>
-    </div>
-</section>
-
-<section class="experience-area">
-
-    <div class="flexible-container">
-
-        <div  class="experience-item" style="float:center;">
-            <center>
-
-                <p>
-                    <a href="/galaxy ">
-                        <font size="50px" color="white">
-                            <center>
-                            GALAXY
-                            </center>
-                        </font>
-                    <img src="{% static 'images/Galaxy.png' %}" width="200" height="200">
-                    </a>
-                </p>
-            </center>
+        <div class="contact-item">
+          <div class="icon"><img src="{% static 'images/pulsars.png' %}" /></div>
+          <div class="contact-info">
+            <a href="/pulsars">
+            <h1>PULSARS & MAGNETARS</h1>
+            <h2>"Just Neutron Stars in Disguise?"</h2>
+            </a>
+          </div>
         </div>
-    </div>
-</section>
-
-<section class="experience-area">
-
-    <div class="flexible-container">
-
-        <div  class="experience-item" style="float:center;">
-            <center>
-
-                <p>
-                    <a href="/comets">
-                        <font size="50px" color="white">
-                            <center>
-                            COMETS
-                            </center>
-                        </font>
-                    <img src="{% static 'images/comets.png' %}" width="200" height="200">
-                    </a>
-                </p>
-            </center>
+      </div>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="{% static 'images/dwarf.png' %}" /></div>
+          <div class="contact-info">
+            <a href="/dwarf">
+            <h1>DWARF PLANETS</h1>
+            <h2>"A Little too Small to be Called Planets" </h2>
+            </a>
+          </div>
         </div>
-    </div>
-</section>
-
-<section class="experience-area">
-
-    <div class="flexible-container">
-
-        <div  class="experience-item" style="float:center;">
-            <center>
-
-                <p>
-                    <a href="/flare">
-                        <font size="50px" color="white">
-                            <center>
-                            FLARE STARS
-                            </center>
-                        </font>
-                    <img src="{% static 'images/flare.png' %}" width="200" height="200">
-                    </a>
-                </p>
-            </center>
+        <div class="contact-item">
+          <div class="icon"><img src="{% static 'images/Galaxy.png' %}" /></div>
+          <div class="contact-info">
+            <a href="/galaxy">
+            <h1>GALAXIES</h1>
+            <h2>"The Building Blocks of the Universe"</h2>
+            </a>
+          </div>
         </div>
-    </div>
-</section>
-
-<section class="experience-area">
-
-    <div class="flexible-container">
-
-        <div  class="experience-item" style="float:center;">
-            <center>
-
-                <p>
-                    <a href="/meteors">
-                        <font size="50px" color="white">
-                            <center>
-                            METEORS
-                            </center>
-                        </font>
-                    <img src="{% static 'images/meteors.png' %}" width="200" height="200">
-                    </a>
-                </p>
-            </center>
+        <div class="contact-item">
+          <div class="icon"><img src="{% static 'images/comets.png' %}" /></div>
+          <div class="contact-info">
+            <a href="/comets">
+            <h1>COMETS</h1>
+            <h2>"Perfect for an Interstellar Snowball Fight!"</h2>
+            </a>
+          </div>
         </div>
-    </div>
-</section>
-
-<section class="experience-area">
-
-    <div class="flexible-container">
-
-        <div  class="experience-item" style="float:center;">
-            <center>
-
-                <p>
-                    <a href="/natural">
-                        <font size="50px" color="white">
-                            <center>
-                            NATURAL SATELLITES
-                            </center>
-                        </font>
-                    <img src="{% static 'images/natural.png' %}" width="200" height="200">
-                    </a>
-                </p>
-            </center>
+      </div>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="{% static 'images/flare.png' %}" /></div>
+          <div class="contact-info">
+            <a href="/flare">
+            <h1>FLARE STARS</h1>
+            <h2>"Nope. Our sun ain't one of 'em"</h2>
+            </a>
+          </div>
         </div>
-    </div>
-</section>
-
-<section class="experience-area">
-
-    <div class="flexible-container">
-
-        <div  class="experience-item" style="float:center;">
-            <center>
-
-                <p>
-                    <a href="/nebulae">
-                        <font size="50px" color="white">
-                            <center>
-                            NEBULAE
-                            </center>
-                        </font>
-                    <img src="{% static 'images/nebulae.png' %}" width="200" height="200">
-                    </a>
-                </p>
-            </center>
+        <div class="contact-item">
+          <div class="icon"><img src="{% static 'images/meteors.png' %}" /></div>
+          <div class="contact-info">
+            <a href="/meteors">
+            <h1>METEORS</h1>
+            <h2>"Make a Wish; it's a Shooting Star!"</h2>
+            </a>
+          </div>
         </div>
-    </div>
-</section>
-
-<section class="experience-area">
-
-    <div class="flexible-container">
-
-        <div  class="experience-item" style="float:center;">
-            <center>
-
-                <p>
-                    <a href="/oort">
-                        <font size="50px" color="white">
-                            <center>
-                            OORT CLOUD
-                            </center>
-                        </font>
-                    <img src="{% static 'images/oort.png' %}" width="200" height="200">
-                    </a>
-                </p>
-            </center>
+        <div class="contact-item">
+          <div class="icon"><img src="{% static 'images/natural.png' %}" /></div>
+          <div class="contact-info">
+            <a href="/natural">
+            <h1>NATURAL SATELLITES</h1>
+            <h2>"AKA Moons"</h2>
+            </a>
+          </div>
         </div>
-    </div>
-</section>
-
-<section class="experience-area">
-
-    <div class="flexible-container">
-
-        <div  class="experience-item" style="float:center;">
-            <center>
-
-                <p>
-                    <a href="/planets">
-                        <font size="50px" color="white">
-                            <center>
-                            PLANETS
-                            </center>
-                        </font>
-                    <img src="{% static 'images/planets.png' %}" width="200" height="200">
-                    </a>
-                </p>
-            </center>
+      </div>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="{% static 'images/nebulae.png' %}" /></div>
+          <div class="contact-info">
+            <a href="/nebulae">
+            <h1>NEBULAE</h1>
+            <h2>"Clouds More Beautiful than the Ones on Earth"</h2>
+            </a>
+          </div>
         </div>
-    </div>
-</section>
-
-<section class="experience-area">
-
-    <div class="flexible-container">
-
-        <div  class="experience-item" style="float:center;">
-            <center>
-
-                <p>
-                    <a href="/quasars">
-                        <font size="50px" color="white">
-                            <center>
-                            QUASRAS
-                            </center>
-                        </font>
-                    <img src="{% static 'images/quasars.png' %}" width="200" height="200">
-                    </a>
-                </p>
-            </center>
+        <div class="contact-item">
+          <div class="icon"><img src="{% static 'images/oort.png' %}" /></div>
+          <div class="contact-info">
+            <a href="/oort">
+            <h1>THE OORT CLOUD</h1>
+            <h2>"Does it Exist....?"</h2>
+            </a>
+          </div>
         </div>
-    </div>
-</section>
-
-<section class="experience-area">
-
-    <div class="flexible-container">
-
-        <div  class="experience-item" style="float:center;">
-            <center>
-
-                <p>
-                    <a href="/white">
-                        <font size="50px" color="white">
-                            <center>
-                            WHITE DWARF STARS
-                            </center>
-                        </font>
-                    <img src="{% static 'images/white.png' %}" width="200" height="200">
-                    </a>
-                </p>
-            </center>
+        <div class="contact-item">
+          <div class="icon"><img src="{% static 'images/planets.png' %}" /></div>
+          <div class="contact-info">
+            <a href="/planets">
+            <h1>PLANETS</h1>
+            <h2>"One of Which Houses all of Us"</h2>
+            </a>
+          </div>
         </div>
+      </div>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="{% static 'images/quasars.png' %}" /></div>
+          <div class="contact-info">
+            <a href="/quasars">
+            <h1>QUASARS</h1>
+            <h2>"Fuelled by a Supermassive Black Hole"</h2>
+            </a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="{% static 'images/white.png' %}" /></div>
+          <div class="contact-info">
+            <a href="/white">
+            <h1>WHITE DWARF STARS</h1>
+            <h2>"Will They One Day Degenerate into Black Dwarf Stars?"</h2>
+            </a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://www.bing.com/th?id=OIP.7EUrsg5wSOfNF2k9w3UZdwD6D6&w=99&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" /></div>
+          <div class="contact-info">
+            <a href="/dark">
+            <h1>DARK MATTER AND ENERGY</h1>
+            <h2>"Just 95% of the Universe....Under an Invisibility Cloak"</h2>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
+
+  </section>
+  <!-- End Contact Section -->
+
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Chinmayee</span> Gade <span></span></h1>
+      </div>
+    </div>
+  </section>
+</body>

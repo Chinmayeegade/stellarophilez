@@ -1,24 +1,41 @@
-{% include 'navbar.html' %}
 {% load static %}
-<link rel="stylesheet" href="{% static 'styles/article.css' %}">
-<hr>
+<link rel="stylesheet" href="{% static 'styles/homepage.css' %}">
+<!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="/">
+            <h1><span>STELLAR</span>OPHILEZ<span></span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="/" data-after="Home">Home</a></li>
+            <li><a href="/introduction" data-after="Contact">Introduction</a></li>
+            <li><a href="/articles" data-after="Service">Articles</a></li>
+            <li><a href="/astropy" data-after="Projects">Astropy</a></li>
+            <li><a href="/videos" data-after="About">Videos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
 
-<center>
-    <h1>
-        <font face="Times New Roman" >
-            Meteorides-Meteors-Meteorites
-        </font>
-    </h1>
-    <h3>
-        "Make a Wish! It's a shooting star!"
-    </h3>
-</center>
-<center>
-    <section class="experience-area">
-
-        <div class="flexible-container">
-
-            <div id="standard2" class="experience-item">
+    <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="{% static 'images/meteors.png' %}">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">METEOROIDS-<span>METEORS-</span>METEORITES</h1>
                 <p>
                     Meteoroids or space rocks are chunks of rock debris floating in outer space. These chunks measure up to a meter wide and are significantly smaller than other astronomical objects. Meteoroids were formed from the fragmentation of comets and asteroids or due to celestial collisions between rocky or metallic surfaces. Almost all meteoroids comprise nickel and extra-terrestrial iron and classify into chondrules, chondrites, and achondrites based on their composition.
                 </p>
@@ -32,20 +49,17 @@
                     Meteors are formed daily, but when the occurrences peak, millions of shooting stars flicker in the night sky every day. Such peak occurrences are called meteor showers. The names of the meteor showers are deduced based on the constellation from where the meteorites supposedly originate.
                 </p>
                 <p>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
 
-Meteors possess slight hues based on their minor composition differences.
-•	Orange-yellow meteors constitute sodium
-•	Yellow meteors constitute iron
-•	Blue-green meteors constitute magnesium
-•	Violet meteors constitute calcium
-•	Red meteors constitute nitrogen and oxygen
-                </p>
-                <p>
-                    Most meteors don't survive after having entered the Earth's atmosphere and burn down or crumble due to the drastic changes they undergo in atmospheric temperature, composition, and heating, vaporization, and condensation. However, meteors that sustain the changes and do not break down collide with Earth. Once the meteors fall on Earth, they are known as meteorites. Meteorites create impact craters on Earth because of their crashing speed and temperature. Some notable impacts created by meteorites include those at Winslow, Arizona, and Lonar Lake, Maharashtra. Astronomers have also sighted some meteorite made impact craters on Mars and the Moon.
-                </p>
-            </div>
-        </div>
-    </section>
-</center>
-<hr>
-<hr>
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Chinmayee</span> Gade <span></span></h1>
+      </div>
+    </div>
+  </section>
+</body>

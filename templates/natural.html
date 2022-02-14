@@ -1,25 +1,42 @@
-{% include 'navbar.html' %}
 {% load static %}
-<link rel="stylesheet" href="{% static 'styles/article.css' %}">
-<hr>
+<link rel="stylesheet" href="{% static 'styles/homepage.css' %}">
+<!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="/">
+            <h1><span>STELLAR</span>OPHILEZ<span></span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="/" data-after="Home">Home</a></li>
+            <li><a href="/introduction" data-after="Contact">Introduction</a></li>
+            <li><a href="/articles" data-after="Service">Articles</a></li>
+            <li><a href="/astropy" data-after="Projects">Astropy</a></li>
+            <li><a href="/videos" data-after="About">Videos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
 
-<center>
-    <h1>
-        <font face="Times New Roman" >
-            Natural Satellites
-        </font>
-    </h1>
-    <h3>
-        AKA "Moons"
-    </h3>
-</center>
-<center>
-    <section class="experience-area">
-
-        <div class="flexible-container">
-
-            <div id="standard2" class="experience-item">
-                <p>
+    <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="{% static 'images/natural.png' %}">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">NATURAL <span>SATELLITES</span></h1>
+                 <p>
                     Natural Satellites, colloquially known as moons, are heavenly bodies that orbit a specific parent object like a planet, Dwarf planet, asteroid, and in rare cases, even another natural satellite. The most notable example of a natural satellite is our Moon, which in its magnificent grandeur, rarely fails to light up the night sky for us. While the Earth may have only one moon, other planets have been observed to have tens of natural satellites collectively revolving around their parent body, and together encircling the barycentre* of that particular orbital system.
                 </p>
                 <p>
@@ -37,9 +54,17 @@ Titan is Saturn's largest natural satellite, and the only known and confirmed ce
                 <p>
                     Enceladus is the sixth-largest moon of Saturn and is covered by clean, white ice, making it one of the most reflective bodies of the Solar System. Enceladus has a wide range of surface features, ranging from old, heavily cratered regions to young, tectonically deformed terrains, such as impact craters, narrow depressions, ridges, plains, sulci (grooves), cliffs, etc
                 </p>
-            </div>
-        </div>
-    </section>
-</center>
-<hr>
-<hr>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Chinmayee</span> Gade <span></span></h1>
+      </div>
+    </div>
+  </section>
+</body>

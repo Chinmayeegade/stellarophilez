@@ -1,27 +1,44 @@
-{% include 'navbar.html' %}
 {% load static %}
-<link rel="stylesheet" href="{% static 'styles/article.css' %}">
-<hr>
+<link rel="stylesheet" href="{% static 'styles/homepage.css' %}">
+<!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="/">
+            <h1><span>STELLAR</span>OPHILEZ<span></span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="/" data-after="Home">Home</a></li>
+            <li><a href="/introduction" data-after="Contact">Introduction</a></li>
+            <li><a href="/articles" data-after="Service">Articles</a></li>
+            <li><a href="/astropy" data-after="Projects">Astropy</a></li>
+            <li><a href="/videos" data-after="About">Videos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
 
-<center>
-    <h1>
-        <font face="Times New Roman" >
-            Stars
-        </font>
-    </h1>
-    <h3>
-        The Elixirs of Life
-    </h3>
-</center>
-<center>
-    <section class="experience-area">
-
-        <div class="flexible-container">
-
-            <div id="standard2" class="experience-item">
-                <p>
+    <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="{% static 'images/stars.png' %}">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">STA<span>RS</span></h1>
+          <p>
                     Born from nebulae and created due to a dynamic gravitational collapse, stars are the fundamental foundation blocks required for the existence of any Solar System. Life, as we know, on Earth would never be sustained had the gigantic blazing ball of hydrogen and helium, our Sun, never been formed. Stars are massive, gaseous luminous celestial spheroids composed of gases(primarily hydrogen and helium) and plasma. They radiate immense light and heat energy because of internal nuclear fusion and possess a surrounding magnetic field. Every star encompasses a strong central gravitational pull of attraction which enables the positioning of all astronomical objects in its respective solar system in stable elliptical orbits around it. Many stars also exist in pairs (binary stars), multiple systems, or star clusters.                </p>
-                <p>    
+                <p>
                     The genesis of a star begins with a hot central core formed in an H II nebula region due to a central gravitation pull and eventual gravitational collapse. Based on the mass of the evolved star, we can classify the stellar life cycle into either a brown dwarf star,  Low-mass stars, or massive stars during their Main Sequence stellar stage. Brown dwarfs have the lowest mass and do not further change or evolve. Low-mass stars can form Red Giants, Binary White Stars, Planetary nebulae, Supernovae, and eventually white or black dwarf stars. Massive stars change into Red Supergiants, Supernovae, black holes, neutron stars, x-ray emissions, or pulsars.                <p>
                     Asteroids, also known as planetoids, are rocky, cratered surfaces, capable of colliding with the Earth and causing damage based on their size and composition. Their size ranges from approximately 2m to 940km. Though a majority of asteroids lie within the asteroid belt, between the inner and outer planets of our solar system, there are many, small clusters of asteroids all around our solar system. ‘The Near-Earth Asteroids (NEA)’ are a group of asteroids that navigate the Earth’s orbit and pose greater threat to the Earth.                </p>
                 <p>
@@ -29,7 +46,7 @@
                 <p>
                     Constellations:
                     <p>
-                        Constellations are imaginary patterns or figures formed using stars visible to the naked eye as the vertex points of the shapes. These constellations have their origins in Greek mythology and have assisted water travel since the medieval ages. 
+                        Constellations are imaginary patterns or figures formed using stars visible to the naked eye as the vertex points of the shapes. These constellations have their origins in Greek mythology and have assisted water travel since the medieval ages.
                     </p>
                 </p>
                 <p>
@@ -54,9 +71,17 @@ All three stars are the brightest stars of their respective constellations.
 
                     </p>
                 </p>
-            </div>
-        </div>
-    </section>
-</center>
-<hr>
-<hr>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Chinmayee</span> Gade <span></span></h1>
+      </div>
+    </div>
+  </section>
+</body>

@@ -54,5 +54,8 @@ def quasars(request):
 def white(request):
     return render(request, "white.html")
 
+def introduction(request):
+    return render(request, "introduction.html")
 
-
+def dark(request):
+    return render(request, "dark.html")

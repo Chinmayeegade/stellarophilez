@@ -20,4 +20,6 @@ urlpatterns = [
     path("planets/", views.planets),
     path("quasars/", views.quasars),
     path("white/", views.white),
+    path("introduction/", views.introduction),
+    path("dark/", views.dark),
 ]

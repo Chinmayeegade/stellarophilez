@@ -1,21 +1,41 @@
-{% include 'navbar.html' %}
 {% load static %}
-<link rel="stylesheet" href="{% static 'styles/article.css' %}">
-<hr>
+<link rel="stylesheet" href="{% static 'styles/homepage.css' %}">
+<!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="/">
+            <h1><span>STELLAR</span>OPHILEZ<span></span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="/" data-after="Home">Home</a></li>
+            <li><a href="/introduction" data-after="Contact">Introduction</a></li>
+            <li><a href="/articles" data-after="Service">Articles</a></li>
+            <li><a href="/astropy" data-after="Projects">Astropy</a></li>
+            <li><a href="/videos" data-after="About">Videos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
 
-<center>
-    <h1>
-        <font face="Times New Roman" >
-            Quasars
-        </font>
-    </h1>
-</center>
-<center>
-    <section class="experience-area">
-
-        <div class="flexible-container">
-
-            <div id="standard2" class="experience-item">
+    <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="{% static 'images/quasars.png' %}">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">QUAS<span>ARS</span></h1>
                 <p>Quasi-Stellar (star-like) Radio Sources, more often known as Quasars, are a predominant sub-type of Active Galactic Nuclei*. Quasars are staggeringly bright and luminous and emit shocking amounts of electromagnetic** radiation distributed over various wavelengths of light. Quasars surround a central black hole, and are encircled by an accretion disk*. The electromagnetic radiation from quasars is released when gas in the accretion disk gets pulled into the black hole and heats up due to friction caused when the matter particles in the accretion disk collide against each other. Quasars usually form the central regions of interacting or merging galaxies. The energy radiations released by quasars in the form of visible light rays are known as jets. All discovered quasars lie millions of light-years away from our solar system and hence avail us the opportunity to view the universe in its past and young form, thus revealing secrets about the formation of its entirety and possibly about the Big Bang's reionization. The light from these radio sources travels an interminable distance to reach us, and hence we see it in its redshift form*. Quasars with similar redshift values are assumed to lie in galaxies that interact or are merging and are hence called Binary Quasars. The first Quasar was discovered by astronomer Allan Sandage in the 1960s. Quasars play a vital role in mapping reference points that lead to the establishment of a celestial measurement grid. Being extremely small dots when viewed from Earth, extragalactic radio sources, mostly quasars form the base of the International Celestial Reference System.
 </p>
                 <p>
@@ -23,9 +43,17 @@
 Makarian 231 is the closest quasar to our solar system. It lies in the Ursa Major constellation in the northern hemisphere and is at a distance of approximately 600 million light-years. It was discovered via the Hubble Space telescope. Makarian 231 is powered by a central double black hole system.
 
                 </p>
-            </div>
-        </div>
-    </section>
-</center>
-<hr>
-<hr>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Chinmayee</span> Gade <span></span></h1>
+      </div>
+    </div>
+  </section>
+</body>

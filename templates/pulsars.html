@@ -1,29 +1,49 @@
-{% include 'navbar.html' %}
 {% load static %}
-<link rel="stylesheet" href="{% static 'styles/article.css' %}">
-<hr>
+<link rel="stylesheet" href="{% static 'styles/homepage.css' %}">
+<!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="/">
+            <h1><span>STELLAR</span>OPHILEZ<span></span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="/" data-after="Home">Home</a></li>
+            <li><a href="/introduction" data-after="Contact">Introduction</a></li>
+            <li><a href="/articles" data-after="Service">Articles</a></li>
+            <li><a href="/astropy" data-after="Projects">Astropy</a></li>
+            <li><a href="/videos" data-after="About">Videos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
 
-<center>
-    <h1>
-        <font face="Times New Roman" >
-            Pulsars
-        </font>
-    </h1>
-</center>
-<center>
-    <section class="experience-area">
-
-        <div class="flexible-container">
-
-            <div id="standard2" class="experience-item">
-                <p>
+    <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="{% static 'images/pulsars.png' %}">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">PULSARS<span> AND </span>MAGNETARS</h1>
+          <p>
                     Pulsating Radio Sources or Pulsars are highly magnetized rotating compact neutron stars. These stars emit electromagnetic radiation known as jets from their magnetic poles. Pulsars rotate at high speeds and appear to flicker when viewed as they are only visible when the radiation beams point towards us. The pulsating intervals range from milliseconds to seconds. Pulsars are one of the rare sources of ultra-high-energy cosmic rays. Astronomer Jocelyn Bell first observed pulsars in 1967 using a specially designed radio telescope. Pulsars helped in proving the existence of gravitational radiation.
                     The two main sub-classes of pulsars include rotation-powered pulsars and accretion-powered pulsars. In rotation-powered pulsars, the loss of rotational energy provides power to the pulsar, whereas in accretion-powered pulsars, the gravitational potential of a pulsar is its source of power.
-                    lae and created due to a dynamic gravitational collapse, stars are the fundamental foundation blocks required for the existence of any Solar System. Life, as we know, on Earth would never be sustained had the gigantic blazing ball of hydrogen and helium, our Sun, never been formed. Stars are massive, gaseous luminous celestial spheroids composed of gases(primarily hydrogen and helium) and plasma. They radiate immense light and heat energy because of internal nuclear fusion and possess a surrounding magnetic field. Every star encompasses a strong central gravitational pull of attraction which enables the positioning of all astronomical objects in its respective solar system in stable elliptical orbits around it. Many stars also exist in pairs (binary stars), multiple systems, or star clusters.                
+                    lae and created due to a dynamic gravitational collapse, stars are the fundamental foundation blocks required for the existence of any Solar System. Life, as we know, on Earth would never be sustained had the gigantic blazing ball of hydrogen and helium, our Sun, never been formed. Stars are massive, gaseous luminous celestial spheroids composed of gases(primarily hydrogen and helium) and plasma. They radiate immense light and heat energy because of internal nuclear fusion and possess a surrounding magnetic field. Every star encompasses a strong central gravitational pull of attraction which enables the positioning of all astronomical objects in its respective solar system in stable elliptical orbits around it. Many stars also exist in pairs (binary stars), multiple systems, or star clusters.
                 </p>
                 <p>
                     Prominently known Pulsars:
-                </p>    
+                </p>
 <p>•Vela Pulsar: The brightest known Pulsar</p>
 <p>•	PSR J0437−4715: the brightest millisecond Pulsar</p>
 <p>•	PSR J0737−3039: A double binary pulsar</p>
@@ -52,11 +72,19 @@
 •	1E 1048.1−5937: located in Westerlund 1*
                 </p>
                 <p>
-                    A few astonishing cases of neutron stars which are magnetars as well as pulsars have also been found. 
+                    A few astonishing cases of neutron stars which are magnetars as well as pulsars have also been found.
                 </p>
-            </div>
-        </div>
-    </section>
-</center>
-<hr>
-<hr>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Chinmayee</span> Gade <span></span></h1>
+      </div>
+    </div>
+  </section>
+</body>
