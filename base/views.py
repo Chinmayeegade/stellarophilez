@@ -59,3 +59,6 @@ def introduction(request):
 
 def dark(request):
     return render(request, "dark.html")
+
+def sidebar(request):
+    return render(request, "sidebar.html")

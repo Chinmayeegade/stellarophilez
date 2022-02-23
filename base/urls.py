@@ -22,4 +22,5 @@ urlpatterns = [
     path("white/", views.white),
     path("introduction/", views.introduction),
     path("dark/", views.dark),
+    path("sidebar/", views.sidebar),
 ]
