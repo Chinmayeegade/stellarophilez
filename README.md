@@ -6,8 +6,7 @@
 - Django is a Python-based free and open-source web framework that follows the Model–Template–Views (MTV) architectural pattern.
 ## Host Locally
 -     $ git clone https://github.com/Chinmayeegade/stellarophilez.git
-      $ cd syntaxpython
+      $ cd stellarophilez
       $ python manage.py runserver
 - Navigate to http://127.0.0.1:8000/ to see the website
-
 
